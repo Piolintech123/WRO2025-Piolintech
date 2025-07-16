@@ -15,10 +15,10 @@ We are **Piolín Tech**, a passionate robotics team competing in the **2025 WRO 
       📸 **Instagram**: [https://www.instagram.com/miaacnt](https://www.instagram.com/miaacnt)
   
 - *Christian Castrellón* – Colegio bilingüe de Panamá  
-      📸 **Instagram**: [https://www.instagram.com/cj.chriss](https://www.instagram.com/cj.chriss)  
+      📸 **Instagram**: [https://www.instagram.com/cj.chriss](https://www.instagram.com/cj.chriss)
+  
 **Coach**
 - *Hanna Figueroa*  
-
 ---
 
 ## 🌐 Social Media  
