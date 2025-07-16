@@ -6,14 +6,19 @@ We are **Piolín Tech**, a passionate robotics team competing in the **2025 WRO 
 ---
 
 ## 👥 The Team
+![Official pictures](https://github.com/user-attachments/assets/68cd1a6f-c74e-4a7e-8290-5a2be032ea02)
 
 **Team Members**
+
+![SebastianM](https://github.com/user-attachments/assets/e0948b4f-3a81-42d8-89f1-8cc976fd7cee)
 - *Sebastián Martínez* – Colegio bilingüe de Panamá
         📸 **Instagram**: [https://www.instagram.com/_sxbxss](https://www.instagram.com/_sxbxss)
   
+  ![MiaC](https://github.com/user-attachments/assets/6a1fe032-be87-4a0f-9050-c9e0abd8d2b3)
 - *Mia Cantoral* – Colegio bilingüe de Panamá
       📸 **Instagram**: [https://www.instagram.com/miaacnt](https://www.instagram.com/miaacnt)
   
+  ![ChristianC](https://github.com/user-attachments/assets/a456b940-19b9-4d90-b55a-375cbf2955e3)
 - *Christian Castrellón* – Colegio bilingüe de Panamá  
       📸 **Instagram**: [https://www.instagram.com/cj.chriss](https://www.instagram.com/cj.chriss)
   
@@ -53,4 +58,6 @@ We are extremely grateful to:
 
 > 🔧 Developed with LEGO Mindstorms + Python  
 > 🚗 WRO Future Engineers 2025  
-> 🟡 Team: Piolín Tech  
+> 🟡 Team: Piolín Tech
+ ![Piolinnamelogo](https://github.com/user-attachments/assets/52f05714-a390-4bb6-b9da-3e7e7d36c532)
+
