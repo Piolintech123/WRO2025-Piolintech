@@ -6,19 +6,19 @@ We are **Piolín Tech**, a passionate robotics team competing in the **2025 WRO 
 ---
 
 ## 👥 The Team
-![Official pictures](https://github.com/user-attachments/assets/68cd1a6f-c74e-4a7e-8290-5a2be032ea02)
+![WhatsApp Image 2025-07-16 at 10 03 26 AM](https://github.com/user-attachments/assets/bd89da0c-0658-4490-af61-8b7dbece88ac)
 
 **Team Members**
 
-![SebastianM](https://github.com/user-attachments/assets/e0948b4f-3a81-42d8-89f1-8cc976fd7cee)
+![WhatsApp Image 2025-07-16 at 10 43 02 AM](https://github.com/user-attachments/assets/b11aaff5-3de3-4762-b0c1-a0094b9cf4e7)
 - *Sebastián Martínez* – Colegio bilingüe de Panamá
         📸 **Instagram**: [https://www.instagram.com/_sxbxss](https://www.instagram.com/_sxbxss)
   
-  ![MiaC](https://github.com/user-attachments/assets/6a1fe032-be87-4a0f-9050-c9e0abd8d2b3)
+  ![WhatsApp Image 2025-07-16 at 10 43 08 AM](https://github.com/user-attachments/assets/dc507a8b-f1c1-435e-9df6-96d2e11e0cba)
 - *Mia Cantoral* – Colegio bilingüe de Panamá
       📸 **Instagram**: [https://www.instagram.com/miaacnt](https://www.instagram.com/miaacnt)
   
-  ![ChristianC](https://github.com/user-attachments/assets/a456b940-19b9-4d90-b55a-375cbf2955e3)
+  ![WhatsApp Image 2025-07-16 at 10 43 12 AM](https://github.com/user-attachments/assets/0b5f11e1-4c58-45dd-b63a-45f6c2c5726a)
 - *Christian Castrellón* – Colegio bilingüe de Panamá  
       📸 **Instagram**: [https://www.instagram.com/cj.chriss](https://www.instagram.com/cj.chriss)
   
