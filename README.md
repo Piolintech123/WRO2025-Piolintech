@@ -1,7 +1,7 @@
 # Piolín Tech — WRO Future Engineers 2025
 
 ## Introduction  
-We are **Piolín Tech**, a passionate robotics team competing in the **2025 WRO Future Engineers** category. This is our first year in this category, and we are proud to present our kid, Piolin: a fully autonomous vehicle controlled by a LEGO **EV3** brick, programmed using **Python** and **LEGO Mindstorms**. This repository documents our entire journey, including development, testing, and final results.
+We are **Piolín Tech**, Panamanian robotics team competing in the **2025 WRO Future Engineers** category. This is our first year in this category, and we are proud to present our kid, Piolin: a fully autonomous vehicle controlled by a LEGO **EV3** brick, programmed using **Python** and **LEGO Mindstorms**. This repository documents our entire journey, including development, testing, and final results.
 
 ---
 
