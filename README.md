@@ -1,26 +1,54 @@
-Engineering materials
-====
+# Piolín Tech — WRO Future Engineers 2025
 
-This repository contains engineering materials of a self-driven vehicle's model participating in the WRO Future Engineers competition in the season 2022.
+## Introduction  
+We are **Piolín Tech**, a passionate robotics team competing in the **2025 WRO Future Engineers** category. This is our first year in this category, and we are proud to present our kid, Piolin: a fully autonomous vehicle controlled by a LEGO **EV3** brick, programmed using **Python** and **LEGO Mindstorms**. This repository documents our entire journey, including development, testing, and final results.
 
-## Content
+---
 
-* `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
-* `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
-* `video` contains the video.md file with the link to a video where driving demonstration exists
-* `schemes` contains one or several schematic diagrams in form of JPEG, PNG or PDF of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
-* `src` contains code of control software for all components which were programmed to participate in the competition
-* `models` is for the files for models used by 3D printers, laser cutting machines and CNC machines to produce the vehicle elements. If there is nothing to add to this location, the directory can be removed.
-* `other` is for other files which can be used to understand how to prepare the vehicle for the competition. It may include documentation how to connect to a SBC/SBM and upload files there, datasets, hardware specifications, communication protocols descriptions etc. If there is nothing to add to this location, the directory can be removed.
+## 👥 The Team
 
-## Introduction
+**Team Members**
+- *Sebastián Martínez* – Colegio bilingüe de Panamá
+      📸 **Instagram**: [https://www.instagram.com/_sxbxss](https://www.instagram.com/_sxbxss)  
+- *Mia Cantoral* – Colegio bilingüe de Panamá
+      📸 **Instagram**: [https://www.instagram.com/miaacnt](https://www.instagram.com/miaacnt)  
+- *Christian Castrellón* – Colegio bilingüe de Panamá  
+      📸 **Instagram**: [https://www.instagram.com/cj.chriss](https://www.instagram.com/cj.chriss)  
+**Coach**
+- *Hanna Figueroa*  
 
-_This part must be filled by participants with the technical clarifications about the code: which modules the code consists of, how they are related to the electromechanical components of the vehicle, and what is the process to build/compile/upload the code to the vehicle’s controllers._
+---
 
-## How to prepare the repo based on the template
+## 🌐 Social Media  
 
-_Remove this section before the first commit to the repository_
+- 📸 **Instagram**: [https://www.instagram.com/piolintech](https://www.instagram.com/piolintech)  
+  Team photos, updates, and WRO moments
 
-1. Clone this repo by using the `git clone` functionality.
-2. Remove `.git` directory
-3. [Initialize a new public repository on GitHub](https://github.com/new) by following instructions from "create a new repository on the command line" section (appeared after pressing "Create repository" button).
+- 🎥 **YouTube**: [https://www.youtube.com/@piolintech](https://www.youtube.com/@piolintech)  
+  Robot tests, tutorials, and event recaps
+
+---
+
+## 🧠 Abstract  
+Our solution is an **autonomous EV3-based vehicle**, fully programmed in **Python** and **LEGO Mindstorms**. The EV3 brick manages:
+- Motor control  
+- Sensor integration  
+- Decision-making logic  
+- Obstacle avoidance and traffic sign detection
+
+We use a **color sensor** to detect traffic signs, an **ultrasonic sensor** for obstacle detection, and **motor encoders** for precise movement. Piolin is designed with accuracy and simplicity in mind, using path planning and sensor feedback to adapt in real time during the challenge.
+
+---
+
+## 🙏 Special Thanks  
+
+We are extremely grateful to:
+- Our families, for supporting us (and letting us stay past our usual time just to finish Piolin 🛠️)
+- Our coach, Teacher Hanna, for guidance
+- Everyone who tested, reviewed, or encouraged our project along the way :) It means the world to us!
+
+---
+
+> 🔧 Developed with LEGO Mindstorms + Python  
+> 🚗 WRO Future Engineers 2025  
+> 🟡 Team: Piolín Tech  
