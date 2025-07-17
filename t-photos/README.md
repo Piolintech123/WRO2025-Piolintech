@@ -1,4 +1,4 @@
 Team's photos
 ====
 
-This directory must contain 2 photos of the team (an official one and one funny photo with all team members)
+These team pictures show the members of Piolín Tech: Mia, Sebastian and Chrstian. Behind Piolin, there's 3 young students with not so professional knowledge but love and passion for robotics.
