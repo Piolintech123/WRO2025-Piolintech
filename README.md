@@ -43,8 +43,6 @@ Our solution is an **autonomous EV3-based vehicle**, fully programmed in **Pytho
 - Decision-making logic  
 - Obstacle avoidance and traffic sign detection
 
-We use a **color sensor** to detect traffic signs, an **ultrasonic sensor** for obstacle detection, and **motor encoders** for precise movement. Piolin is designed with accuracy and simplicity in mind, using path planning and sensor feedback to adapt in real time during the challenge.
-
 ---
 
 ## 🙏 Special Thanks  
