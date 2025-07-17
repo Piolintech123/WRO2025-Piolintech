@@ -1,4 +1,4 @@
 Vehicle's photos
 ====
 
-This directory must contain 6 photos of the vehicle (from every side, from top and bottom)
+These photos show our robot from different angles: front, back, top, and sides. Each view helps explain how the robot is built and where the main parts are placed, like the wheels, motors, and cables.
