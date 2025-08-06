@@ -1,4 +1,4 @@
-# Schematics and Diagrams – LEGO EV3 Robot
+Schematics and Diagrams – LEGO EV3 Robot
 ---
 
 ## Directory Overview
