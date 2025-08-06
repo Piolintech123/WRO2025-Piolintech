@@ -57,12 +57,12 @@ Our robot uses a **four-wheel chassis using lego** designed for balance, tractio
 
 | Component | Port | Description |
 |----------|------|-------------|
-| Left Motor  | A | Rear-mounted, connected via standard EV3 cable |
-| Right Motor | D | Front-mounted, connected via standard EV3 cable |
-| Ultrasonic Sensor | 1 | Side-facing object detection |
-| Gyro Sensor | 2 | Orientation tracking |
-| Touch Sensor | 3 | Trigger for user input or collision |
-|  Camera | USB | Mounted on chassis, interfaced via USB |
+| Left Motor  | 0 | Rear-mounted, connected via standard EV3 cable |
+| Right Motor | 0 | Front-mounted, connected via standard EV3 cable |
+| Ultrasonic Sensor | 0 | Side-facing object detection |
+| Gyro Sensor | 0 | Orientation tracking |
+| Touch Sensor | 0 | Trigger for user input or collision |
+|  Camera | 0 | Mounted on chassis, interfaced via USB |
 
 ---
 
