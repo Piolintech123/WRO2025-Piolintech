@@ -1,6 +1,75 @@
-Electromechanical diagrams
-====
+# Schematics and Diagrams – LEGO EV3 Robot
+---
 
-This electromechanical diagram shows the drivetrain configuration of our EV3-based robot, designed using a four-wheel chassis with two independent motors. One motor is mounted centrally between the rear wheels, and the second is aligned between the front wheels. We’re employing a free-wheel traction system, where the motors are responsible for propulsion while the unpowered wheels, the ones on front, provide support and stability.
+## Directory Overview
 
-This layout seeks to optimize balance and maneuverability, it is designed that way to help us to experiment with turning dynamics and load distribution. The design might seem straightforward, but it helps us witb engineering iterations addressing alignment drift, inconsistent motor calibration, and physical wear from repeated field testing. 
+This folder includes schematic diagrams for:
+
+- **EV3 Brick (Control Unit)**  
+  Logical port layout, power management, and I/O architecture.
+  
+- **Motors**  
+  Placement diagrams and wiring configuration using EV3 output ports.
+  
+- **Sensors**  
+  Input port mapping, cable routing, and pinout descriptions for touch, ultrasonic, gyro, and other sensors.
+  
+- **Camera Module (Optional)**  
+  If a camera is used (It is, indeed! we are using a PixyCam), its position and connection are documented here.
+
+---
+
+## Drivetrain Configuration
+
+Our robot uses a **four-wheel chassis using lego** designed for balance, traction, and modularity. The drivetrain setup includes:
+
+### Mechanical Design
+
+- **Two powered wheels** for propulsion.
+- **Two unpowered (idler) wheels** for support and balance.
+- All wheels are fixed in parallel alignment to allow efficient forward/backward movement.
+
+### Motor Placement
+
+- **Rear Motor**: Mounted centrally between the rear wheels. Connected to EV3 output port A.
+- **Front Motor**: Mounted between the front wheels. Connected to EV3 output port D.
+- This allows differential drive, where turning is achieved by varying the speed and direction of each motor independently.
+
+### Traction Strategy
+
+- The drivetrain follows a **free-wheel traction model**:
+  - Powered wheels provide propulsion.
+  - Unpowered front wheels add stability without introducing drag.
+  - Simplifies mechanical design while retaining maneuverability.
+
+---
+
+## EV3 Brick Integration
+
+- Uses standard **EV3 input ports (1–4)** for sensors and **output ports (A–D)** for motors.
+- Each motor includes an internal rotary encoder, which connects through built-in tacho feedback lines.
+- Communication and power distribution follow LEGO’s RJ12 standard.
+- The EV3’s onboard ARM9 processor runs a Linux-based OS to handle I/O, motor control, and sensor polling.
+
+---
+
+## Electrical & Wiring Notes
+
+| Component | Port | Description |
+|----------|------|-------------|
+| Left Motor  | A | Rear-mounted, connected via standard EV3 cable |
+| Right Motor | D | Front-mounted, connected via standard EV3 cable |
+| Ultrasonic Sensor | 1 | Side-facing object detection |
+| Gyro Sensor | 2 | Orientation tracking |
+| Touch Sensor | 3 | Trigger for user input or collision |
+|  Camera | USB | Mounted on chassis, interfaced via USB |
+
+---
+
+
+## References
+
+- LEGO Mindstorms EV3 Hardware Documentation  
+- EV3 Schematic Community Resources (StackExchange, GitHub)  
+
+
