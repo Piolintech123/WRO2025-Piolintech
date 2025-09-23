@@ -32,7 +32,7 @@ Our robot uses a **four-wheel chassis using lego** designed for balance, tractio
 ### Motor Placement
 
 - **Rear Motor**: Mounted centrally between the rear wheels. Connected to EV3 output port A.
-- **Front Motor**: Mounted between the front wheels. Connected to EV3 output port D.
+- **Front Motor**: Mounted between the front wheels. Connected to EV3 output port B.
 - This allows differential drive, where turning is achieved by varying the speed and direction of each motor independently.
 
 ### Traction Strategy
