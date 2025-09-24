@@ -61,6 +61,7 @@ Our robot uses a **four-wheel chassis using lego** designed for balance, tractio
 | Front Motor | B | Front-mounted, connected via standard EV3 cable |
 | Right Ultrasonic Sensor | S2 | Side-facing object detection |
 | Left Ultrasonic Sensor | S3 | Side-facing object detection |
+| Front Ultrasonic Sensor | S1 | Front-facing object detection |
 |  Camera | 0 | Mounted on chassis, interfaced via USB |
 
 ---
