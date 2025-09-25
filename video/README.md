@@ -1,5 +1,6 @@
-Video
-====
+# Video Demonstration – Round 1 Open
+=====
 
-This directory must contain the video.md file with a URL to YouTube (should be either public or accessible by link) showing the vehicle driving autonomously.
-That part of the video where driving demonstration exists must be at least 30 seconds in length.
+This directory contains a link to our first video demonstrating the autonomous performance of our vehicle during the **Round 1 Open** challenge. The video, approximately 3 minutes in length, shows the vehicle navigating the course autonomously, highlighting its sensor integration, control logic, and overall programming. Throughout the demonstration, the vehicle maintains smooth and controlled motion while responding to the course layout in real time.
+
+V1: https://www.youtube.com/watch?v=wHibLU0Jp-U
