@@ -63,7 +63,6 @@ Our robot uses a **four-wheel chassis using lego** designed for balance, tractio
 | Left Ultrasonic Sensor | S3 | Side-facing object detection |
 | Front Ultrasonic Sensor | S1 | Front-facing object detection |
 |  Camera | 0 | interfaced via a second brain, a raspberry pi |
-|  Color Sensor | S4 | Used to detect lines on the floor to rotate to the right side |
 
 
 ---
