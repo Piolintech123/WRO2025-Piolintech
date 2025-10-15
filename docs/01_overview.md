@@ -6,16 +6,17 @@
 The robot is designed to **autonomously navigate a predefined circuit**, detect obstacles, and adapt its path in real time. Its architecture combines a **Raspberry Pi 5** for visual processing, an **EV3 Brick** for motor and sensor control, and an array of ultrasonic and color sensors to support navigation and obstacle management.  
 
 ## 2. Main Components
+| Component | EV3 Port / Interface | Function |
+|-----------|-------------------|---------|
+| **Rear Motor** | A | Rear-mounted, drives rear wheels. |
+| **Front Motor** | B | Front-mounted, controls front wheels/steering. |
+| **Front Ultrasonic Sensor** | S1 | Front-facing object detection. |
+| **Right Ultrasonic Sensor** | S2 | Side-facing object detection. |
+| **Left Ultrasonic Sensor** | S3 | Side-facing object detection. |
+| **Camera (Nexigo)** | 0 (via Raspberry Pi 5) | Visual detection, color recognition, and obstacle identification. |
+| **Color Sensor** | (EV3 Port, if used) | Detects track lines for turns or maneuvers. |
 
-| Component | Function |
-|-----------|---------|
-| **DC Motors** | Rear-wheel drive (RWD) propulsion. |
-| **Wheel Encoders** | Measures wheel rotations for distance and precise movement. |
-| **Servo Motor** | Controls front-wheel steering. |
-| **Nexigo Camera** | Visual detection, color recognition, obstacle identification (Raspberry Pi 5). |
-| **Ultrasonic Sensors (3)** | Two sides + one front, for collision avoidance and wall alignment. |
-| **MPU Gyroscope with PID Control** | Maintains stable orientation and straight trajectory. |
-| **Color Sensor** | Detects track lines for turns or maneuvers. |
+> Each component has detailed documentation covering calibration, common errors, and integration with the robot.  
 
 ---
 
@@ -25,27 +26,21 @@ The robot is designed to **autonomously navigate a predefined circuit**, detect 
              v
       [Raspberry Pi 5]
              |
+             |
              v
-+--------------+---------------+
-| | |
-[Front Ultrasonic] [Side Ultrasonics]
-| | |
-+-------+------+---------------+
-|
-[EV3 Brick]
-|
-+----+----+
-| |
-[DC Motors] [Servo Motor]
-|
-[Wheels]
+       [LUS] [SUS]
+             |
+        EV3 Brick
+             |
+        Front Motor
+             |
+          Wheels
 
 
-> Flow: Camera -> Pi processes vision -> EV3 controls motors & servos -> Sensors feedback for PID & obstacle avoidance.
+> Flow: Camera -> Pi processes vision -> EV3 controls motors -> Sensors feedback for obstacle avoidance.
 
 ---
 
-## 4. Main Operational Workflow
 ## 4. Main Operational Workflow
 
 ### 4.1 Initialization Phase
