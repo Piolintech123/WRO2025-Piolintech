@@ -78,3 +78,5 @@ The robot is designed to **autonomously navigate a predefined circuit**, detect 
 
 #### 4.3.3 End State
 - Robot stops automatically, signaling the completion of the Open Challenge.
+---
+[Go back](../README.md)
