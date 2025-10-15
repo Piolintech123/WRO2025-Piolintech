@@ -1,5 +1,4 @@
 # Explanation of the Designed Solution
-## Designed Solution - Technical Explanation
 
 ### Overview
 
