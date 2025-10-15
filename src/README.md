@@ -2,7 +2,7 @@
 
 ### Overview
 
-The Piolín Tech robot implements a **reactive obstacle avoidance system** for autonomous navigation in the Open Challenge. It relies primarily on:
+ Piolín robot implements a **reactive obstacle avoidance system** for autonomous navigation in the Open Challenge. It relies primarily on:
 
 - **Two motors (A and B):** Motor A for forward motion and Motor B for differential steering.  
 - **Three ultrasonic sensors:** Front (S1) for frontal obstacle detection, left (S3) and right (S2) for wall and lateral obstacle detection.  
