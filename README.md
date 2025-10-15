@@ -1,3 +1,4 @@
+![093d809c-2b79-41a6-b265-3d8f717025d3](https://github.com/user-attachments/assets/9c9b904c-fd6e-4afe-8a02-837a716e416e)
 # Piolín Tech — WRO Future Engineers 2025
 
 ## Introduction  
