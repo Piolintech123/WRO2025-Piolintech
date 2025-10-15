@@ -48,7 +48,6 @@ The robot is designed to **autonomously navigate a predefined circuit**, detect 
 - **Ready State:** LED signals readiness; operation starts with button press.
 
 ### 4.2 Autonomous Navigation Phase
-- **Orientation Correction:** MPU-6050 + PID ensures straight path.  
 - **Obstacle Detection:** Nexigo camera identifies obstacles.  
   - **Evasion Maneuver:** Robot turns until path is clear.  
   - **Trajectory Re-acquisition:** Side ultrasonics help recenter robot.
