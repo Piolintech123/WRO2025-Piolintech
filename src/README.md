@@ -19,7 +19,7 @@ Welcome to the **Piolín Tech** repository for the 2025 World Robot Olympiad (WR
   Detailed explanation of the robot’s behavior, sensor usage, and control logic during the Open Challenge.  
 
 ### 4. Round 2 - Explanation
-- **Documentation:** [round_2_exp.md](./round_2_exp.md)  
+- **Documentation:** [round_2_exp.md](.round_1/round_2_exp.md)  
   Detailed explanation of the robot’s behavior, sensor usage, and control logic during the Obstacle Challenge.
 
 ---
