@@ -44,7 +44,6 @@ The robot is designed to **autonomously navigate a predefined circuit**, detect 
 ## 4. Main Operational Workflow
 
 ### 4.1 Initialization Phase
-- **Power-Up, Self-Checks, Calibration:** Checks sensors, calibrates MPU gyroscope.  
 - **Ready State:** LED signals readiness; operation starts with button press.
 
 ### 4.2 Autonomous Navigation Phase
