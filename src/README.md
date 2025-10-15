@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains the source code and documentation for our autonomous vehicle developed for the **World Robot Olympiad (WRO) Future Engineers 2025** competition. The challenge requires us to design, build, and program a self-driving robot capable of navigating a predefined arena with obstacles, walls, and curves, while demonstrating robustness, adaptability, and engineering creativity. This part of our Github is the most complete one, it includes everything that Piolin needs in order to move.
+This repository contains the source code for our autonomous vehicle developed for the **World Robot Olympiad (WRO) Future Engineers 2025** competition. The challenge requires us to design, build, and program a self-driving robot capable of navigating a predefined arena with obstacles, walls, and curves, while demonstrating robustness, adaptability, and engineering creativity. This part of our Github is the most complete one, it includes everything that Piolin needs in order to move.
 
 We designed a solution that integrates LEGO Mindstorms EV3 hardware with Python programming using the Pybricks MicroPython environment. The system was engineered to balance **simplicity, stability, and effectiveness**, ensuring that the robot can consistently detect obstacles and navigate safely without human intervention.
 
