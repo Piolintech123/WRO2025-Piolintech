@@ -3,44 +3,21 @@
 ## 1. Introduction to Piolín Tech
 **Piolín Tech** is an autonomous robot developed by the Panamanian 🇵🇦 team **Piolín Tech** for the 2025 World Robot Olympiad (WRO). Our project participates in the **Future Engineers** category. The primary goal of Piolín Tech is to integrate advanced robotics principles, including sensor fusion, real-time data processing, and autonomous decision-making, to navigate and complete challenges efficiently, representing Panama in an international robotics arena.  
 
-The robot is designed to **autonomously navigate a predefined circuit**, detect obstacles, and adapt its path in real time. Its architecture combines a **Raspberry Pi 5** for advanced visual processing, an **EV3 Brick** for motor and sensor control, and an array of ultrasonic and color sensors to support navigation and obstacle management.  
+The robot is designed to **autonomously navigate a predefined circuit**, detect obstacles, and adapt its path in real time. Its architecture combines a **Raspberry Pi 5** for visual processing, an **EV3 Brick** for motor and sensor control, and an array of ultrasonic and color sensors to support navigation and obstacle management.  
 
 ## 2. Main Components
 
 | Component | Function |
 |-----------|---------|
-| **DC Motors** | Provides rear-wheel drive (RWD) propulsion. |
-| **Wheel Encoders** | Measures wheel rotations to calculate distance traveled and precise movement. |
-| **Servo Motor** | Controls front-wheel steering for precise turns. |
-| **Nexigo Camera** | Connected to a Raspberry Pi 5, responsible for visual detection, color recognition, and obstacle identification. |
-| **Ultrasonic Sensors (3)** | Two side sensors and one front sensor measure distances in real-time for collision avoidance and alignment with walls. |
-| **MPU Gyroscope with PID Control** | Provides continuous orientation data to maintain stable and accurate trajectories. |
-| **Color Sensor** | Detects colored lines on the track to signal turns or special maneuvers. |
+| **DC Motors** | Rear-wheel drive (RWD) propulsion. |
+| **Wheel Encoders** | Measures wheel rotations for distance and precise movement. |
+| **Servo Motor** | Controls front-wheel steering. |
+| **Nexigo Camera** | Visual detection, color recognition, obstacle identification (Raspberry Pi 5). |
+| **Ultrasonic Sensors (3)** | Two sides + one front, for collision avoidance and wall alignment. |
+| **MPU Gyroscope with PID Control** | Maintains stable orientation and straight trajectory. |
+| **Color Sensor** | Detects track lines for turns or maneuvers. |
 
-> Each component has its own detailed documentation, covering calibration, common errors, logic, and integration with the robot.  
+---
 
-## 3. Main Operational Workflow
+## 3. Sensor & System Diagram
 
-The robot's operation is structured into three main phases:
-
-### 3.1 Initialization Phase
-- **Power-Up, Self-Checks, and Calibration:** Upon startup, Piolín Tech verifies that all sensors and actuators are functional and calibrates the MPU gyroscope for orientation. If any sensor fails to initialize, the program halts.
-- **Ready State:** An LED indicator signals when the robot is ready, and operation begins with a button press.
-
-### 3.2 Autonomous Navigation Phase
-This is the core phase where the robot continuously adapts to its environment:
-
-- **Orientation Correction (Continuous):**  
-  - The MPU-6050 provides live orientation data.  
-  - A PID controller corrects rotational drift, ensuring straight trajectories.  
-  - Yaw corrections are applied differently depending on the challenge type (parallel distance to walls or rear wall alignment).  
-
-- **Obstacle Detection and Evasion (Conditional):**  
-  - The Nexigo camera constantly scans the path.  
-  - If an obstacle is detected in the field of view:  
-    - **Evasion Maneuver:** The robot turns to avoid the object until the path is clear.  
-    - **Trajectory Re-acquisition:** Side ultrasonic sensors assist in re-centering the robot on its intended path while the gyroscope PID controller maintains orientation.  
-
-### 3.3 Completion Phase
-- **End of Laps:** After completing the required number of laps, Piolín Tech transitions to the completion phase.  
-- **Parking Maneuver:** The robot executes a pre-planned maneuver to reach the designated parking zone, concluding the challenge.
