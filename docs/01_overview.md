@@ -42,7 +42,6 @@ The robot is designed to **autonomously navigate a predefined circuit**, detect 
 
 ---
 
-## 4. Main Operational Workflow
 ## 4. Open Challenge Operational Workflow
 
 ### 4.1 Initialization Phase
