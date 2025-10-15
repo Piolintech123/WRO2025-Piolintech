@@ -43,16 +43,39 @@ The robot is designed to **autonomously navigate a predefined circuit**, detect 
 ---
 
 ## 4. Main Operational Workflow
+## 4. Open Challenge Operational Workflow
 
 ### 4.1 Initialization Phase
-- **Ready State:** LED signals readiness; operation starts with button press.
+#### 4.1.1 Power-Up and Self-Checks
+- EV3 verifies the following:
+  - Rear Motor (A) and Front Motor (B) functionality.
+  - Ultrasonic sensors: Front (S1), Right (S2), Left (S3).
+- Color sensor is calibrated to detect track lines correctly.
+
+#### 4.1.2 Ready State
+- LED indicator signals the robot is ready.
+- Operation begins when the start button is pressed.
 
 ### 4.2 Autonomous Navigation Phase
-- **Obstacle Detection:** Nexigo camera identifies obstacles.  
-  - **Evasion Maneuver:** Robot turns until path is clear.  
-  - **Trajectory Re-acquisition:** Side ultrasonics help recenter robot.
+#### 4.2.1 Path Following
+- Robot moves forward along the track.
+- Side ultrasonic sensors (S2 and S3) maintain safe distance from walls or track boundaries.
+- Color sensor detects lines or markers to indicate turns.
+
+#### 4.2.2 Obstacle / Wall Detection
+- Front ultrasonic sensor (S1) monitors for walls or obstacles directly ahead.
+- Pre-programmed maneuvers adjust the robot’s trajectory to avoid collisions using side and front ultrasonic readings.
+
+#### 4.2.3 Adaptive Turning
+- Turns are triggered by color markers on the track.
+- Side ultrasonics ensure proper alignment during and after turns.
 
 ### 4.3 Completion Phase
-- **End of Laps:** Robot transitions to finish phase.  
-- **Parking Maneuver:** Executes parking maneuver to complete challenge.
+#### 4.3.1 Lap Counting
+- The robot tracks completed laps using the color sensor and pre-defined markers.
 
+#### 4.3.2 Parking Maneuver
+- After completing all required laps, the robot navigates to the designated parking zone.
+
+#### 4.3.3 End State
+- Robot stops automatically, signaling the completion of the Open Challenge.
