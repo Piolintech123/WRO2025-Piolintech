@@ -1,16 +1,7 @@
 # Hardware Components Overview
 
 ## Introduction
-Our robot's hardware architecture combines precision actuation, high-quality sensing, and advanced computation to navigate a predefined track, detect obstacles, and execute complex maneuvers. This section provides a detailed overview of all hardware components, including the Raspberry Pi 5, Nexigo camera, LEGO EV3 Brick, motors, ultrasonic sensors, and the color sensor. Each component is described in terms of quantity, voltage requirements, functionality, and key features, ensuring a complete understanding of the robot’s physical architecture.
-
----
-
-## Raspberry Pi 5
-- **Quantity:** 1  
-- **Voltage:** 5V (operating), 5–20V via USB-C PD  
-- **Description:** The Raspberry Pi 5 serves as a secondary processing unit responsible for high-level computation, particularly image processing from the Nexigo camera. It interprets visual information, such as track colors and obstacles, and communicates navigation commands to the LEGO EV3 Brick for actuation.  
-- **Features:** Quad-core ARM Cortex-A76 CPU, 8GB LPDDR5 RAM, USB 3.0 ports, Gigabit Ethernet, Wi-Fi 6, Bluetooth 5.0, multiple camera interfaces via USB or CSI, support for Python and OpenCV libraries.
-<img width="300" height="300" alt="16gb" src="https://github.com/user-attachments/assets/1844a583-9f66-4c0b-bc4e-cfd4fd4980d9"/>
+Our robot's hardware architecture combines precision actuation, high-quality sensing, and advanced computation to navigate a predefined track, detect obstacles, and execute complex maneuvers. This section provides a detailed overview of all hardware components, including the Nexigo camera, LEGO EV3 Brick, motors, ultrasonic sensors, and the color sensor. Each component is described in terms of quantity, voltage requirements, functionality, and key features, ensuring a complete understanding of the robot’s physical architecture.
 
 ---
 
@@ -67,4 +58,4 @@ Our robot's hardware architecture combines precision actuation, high-quality sen
 ---
 
 ## Conclusion
-Overall, Our robot achieves to integrate multiple hardware components in a unified system, and this helps us allow autonomous navigation, obstacle avoidance, and accurate path following. The combination of **high-performance computation (Raspberry Pi 5)**, **visual sensing (Nexigo Camera)**, and **robust actuation and sensing (EV3 Brick, motors, and sensors)** ensures reliability and precision in the Open and Obstacle Challenges of the WRO. Each component contributes to the overall efficiency, safety, and adaptability of the robot, forming a versatile platform capable of tackling complex tasks in competitive robotics environments.
+Overall, Our robot achieves to integrate multiple hardware components in a unified system, and this helps us allow autonomous navigation, obstacle avoidance, and accurate path following. The combination of high-performance computation, **visual sensing (Nexigo Camera)**, and **robust actuation and sensing (EV3 Brick, motors, and sensors)** ensures reliability and precision in the Open and Obstacle Challenges of the WRO. Each component contributes to the overall efficiency, safety, and adaptability of the robot, forming a versatile platform capable of tackling complex tasks in competitive robotics environments.
