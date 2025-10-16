@@ -26,6 +26,5 @@ Welcome to the **Piolín Tech** repository for the 2025 World Robot Olympiad (WR
 
 ## Notes
 - All code is written in **Python** using **Pybricks MicroPython** for the EV3 Brick.  
-- The Raspberry Pi 5 is used for camera-based vision in Round 2 (Obstacle Challenge) only.  
 - Make sure to read the corresponding round explanation (`round_1_exp.md` or `round_2_exp.md`) before running the code to understand operational logic and safety considerations.
 
