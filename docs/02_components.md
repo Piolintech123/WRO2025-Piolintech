@@ -1,7 +1,7 @@
 # Hardware Components Overview
 
 ## Introduction
-The Piolín Tech robot is a sophisticated autonomous system designed for the 2025 World Robot Olympiad (WRO) Future Engineers category. Its hardware architecture combines precision actuation, high-quality sensing, and advanced computation to navigate a predefined track, detect obstacles, and execute complex maneuvers. This section provides a detailed overview of all hardware components, including the Raspberry Pi 5, Nexigo camera, LEGO EV3 Brick, motors, ultrasonic sensors, and the color sensor. Each component is described in terms of quantity, voltage requirements, functionality, and key features, ensuring a complete understanding of the robot’s physical architecture.
+Our robot's hardware architecture combines precision actuation, high-quality sensing, and advanced computation to navigate a predefined track, detect obstacles, and execute complex maneuvers. This section provides a detailed overview of all hardware components, including the Raspberry Pi 5, Nexigo camera, LEGO EV3 Brick, motors, ultrasonic sensors, and the color sensor. Each component is described in terms of quantity, voltage requirements, functionality, and key features, ensuring a complete understanding of the robot’s physical architecture.
 
 ---
 
