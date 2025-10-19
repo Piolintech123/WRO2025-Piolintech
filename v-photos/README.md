@@ -1,4 +1,4 @@
 Vehicle's photos
 ====
 
-These photos show our robot from different angles: front, back, top, and sides. Each view helps explain how the robot is built and where the main components are located, such as the wheels, motors, sensors, and cables. We have included both a 3D rendering of the model and real-life photos of the physical robot. This allows for a clear comparison between the design phase and the final build, giving a more complete and accurate understanding of our robot’s structure. Both these models were crafted carefully accurate by the team-members. 
+These photos show our robot from different angles: front, back, top, and sides. Each view highlights the overall design and placement of key components such as the wheels, motors, sensors, and cables. The images provide a clear and detailed understanding of the robot’s structure, demonstrating the careful and precise assembly carried out by the team members.
