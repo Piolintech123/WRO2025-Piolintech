@@ -40,7 +40,6 @@
 > Flow: EV3 reads sensor data → processes navigation logic → controls motors → sensors provide feedback for obstacle avoidance and track following.  
 
 ---
-
 ## 4. Open Challenge Operational Workflow
 
 ### 4.1 Initialization Phase
@@ -48,34 +47,26 @@
 - EV3 verifies:
   - Rear Motor (A) and Front Motor (B) functionality.
   - Ultrasonic sensors: Front (S1), Right (S2), Left (S3).
-  - Color sensor calibration for track detection (if used).
+  - Color sensor functionality (if used for obstacle awareness).
 
 #### 4.1.2 Ready State
 - LED indicator signals the robot is ready.
 - Operation begins when the start button is pressed.
 
 ### 4.2 Autonomous Navigation Phase
-#### 4.2.1 Path Following
+#### 4.2.1 Forward Movement
 - Robot moves forward along the track autonomously.
 - Side ultrasonic sensors (S2 and S3) maintain safe distances from walls or track boundaries.
-- Color sensor detects lines or markers to indicate turns (if implemented).
 
 #### 4.2.2 Obstacle / Wall Detection
 - Front ultrasonic sensor (S1) monitors for obstacles directly ahead.
-- Pre-programmed maneuvers adjust trajectory to avoid collisions using sensor readings.
-
-#### 4.2.3 Adaptive Turning
-- Turns are triggered by color markers on the track (optional).
-- Side ultrasonic sensors ensure proper alignment during and after turns.
+- Pre-programmed maneuvers adjust the trajectory to avoid collisions using sensor readings.
 
 ### 4.3 Completion Phase
 #### 4.3.1 Lap Counting
-- The robot tracks completed laps using color markers and pre-defined references.
+- The robot keeps track of completed laps internally (programmed logic).
 
-#### 4.3.2 Parking Maneuver
-- After completing all laps, the robot navigates to the designated parking zone.
-
-#### 4.3.3 End State
-- Robot stops automatically, signaling the completion of the Open Challenge.
+#### 4.3.2 Stopping
+- After completing 3 laps, the robot stops automatically, signaling the completion of the Open Challenge.
 
 [Go back](../README.md)
