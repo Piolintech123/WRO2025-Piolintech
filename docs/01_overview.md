@@ -15,7 +15,7 @@
 | **Front Ultrasonic Sensor**| S1                | Front-facing object detection.                |
 | **Right Ultrasonic Sensor**| S2                | Side-facing object detection.                 |
 | **Left Ultrasonic Sensor** | S3                | Side-facing object detection.                 |
-| **Color Sensor**           | (EV3 Port, optional)| Detects track lines for turns or maneuvers.  |
+| **Color Sensor**           | S4                | Detects track lines for turns or maneuvers.  |
 
 > Each component includes documentation on calibration, common errors, and integration with the robot.  
 
