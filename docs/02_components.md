@@ -5,12 +5,12 @@ Our robot's hardware architecture combines precision actuation, high-quality sen
 
 ---
 
-## Nexigo Camera
+## LEGO Color Sensor
 - **Quantity:** 1  
-- **Voltage:** 5V (via USB from Raspberry Pi 5)  
-- **Description:** The Nexigo camera captures real-time video, enabling the robot to detect colors and identify obstacles. It connects directly to the Raspberry Pi 5 for processing and provides the visual data necessary for autonomous decision-making.  
-- **Features:** Full HD 1080p resolution, wide field of view, USB 2.0/3.0 interface, compatibility with OpenCV and other vision processing libraries, high frame rate support for smooth image capture.
-<img width="300" height="300" alt="nex" src="https://github.com/user-attachments/assets/2415c314-b550-4f65-ab6b-7720c1048555"/>
+- **Voltage:** 4.3–5V (powered via EV3 Brick port)  
+- **Description:** The LEGO Color Sensor detects the color of surfaces or objects directly in front of it. It can be used for obstacle recognition, simple visual cues, or track detection if programmed. The sensor communicates directly with the EV3 Brick, which processes the data for autonomous decision-making.  
+- **Features:** Measures reflected and ambient light, detects standard colors (e.g., red, green, blue, yellow, black, white), compatible with EV3 programming environments (LEGO Mindstorms Python, Pybricks), fast response time for real-time robotics applications.  
+<img width="300" height="300" alt="lego-color-senso" src="https://github.com/user-attachments/assets/5e59f3a1-5b7c-4992-9d57-07951f412e67" />
 
 ---
 
