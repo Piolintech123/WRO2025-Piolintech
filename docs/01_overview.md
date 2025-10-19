@@ -60,7 +60,7 @@
 
 #### 4.2.2 Obstacle / Wall Detection
 - Front ultrasonic sensor (S1) monitors for obstacles directly ahead.
-- Pre-programmed maneuvers adjust the trajectory to avoid collisions using sensor readings.
+- Pre-programmed maneuvers (Ext if red, Int if green) adjust the trajectory to avoid collisions using sensor readings.
 
 ### 4.3 Completion Phase
 #### 4.3.1 Lap Counting
