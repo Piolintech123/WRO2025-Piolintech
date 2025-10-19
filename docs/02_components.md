@@ -9,7 +9,7 @@ Our robot's hardware architecture combines precision actuation, high-quality sen
 - **Quantity:** 1  
 - **Voltage:** 4.3–5V (powered via EV3 Brick port)  
 - **Description:** The LEGO Color Sensor detects the color of surfaces or objects directly in front of it. It can be used for obstacle recognition, simple visual cues, or track detection if programmed. The sensor communicates directly with the EV3 Brick, which processes the data for autonomous decision-making.  
-- **Features:** Measures reflected and ambient light, detects standard colors (e.g., red, green, blue, yellow, black, white), compatible with EV3 programming environments (LEGO Mindstorms Python, Pybricks), fast response time for real-time robotics applications.  
+- **Features:** Measures reflected and ambient light, detects colors (only red and green in our case), compatible with EV3 programming environments (LEGO Mindstorms Python, Pybricks).
 <img width="300" height="300" alt="lego-color-senso" src="https://github.com/user-attachments/assets/5e59f3a1-5b7c-4992-9d57-07951f412e67" />
 
 ---
